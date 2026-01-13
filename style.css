@@ -4,24 +4,35 @@
     box-sizing: border-box; 
 }
 
-header {
+body {
     width: 1600px;
-    height: 92px;
-    padding-left: 120px;
-    padding-right: 120px;
+}
+
+header {
+    /* width: 1600px; */
+    /*height: 92px; */
+    /* background: url("images/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom; */
+
+    
+    
 }
 
 nav {
+    height: 92px;
+    padding: 0px 120px;
     display: flex;
     justify-content: space-between;
     
 }
 
-.logo{
-    width: 139px;
-    height: 60px;
+.logo img{
+    /* width: 139px;
+    height: 60px; */
     padding-top: 16px;
     padding-bottom: 16px;
+    /* padding-left: 120px; */
 }
 
 nav ul {
@@ -40,13 +51,10 @@ nav ul a {
     font-size: 16px;
     color: black;
     text-decoration: none;
-    curso
 }
 
-div {
-    padding: 24px 0px;
-}
-div button {
+
+.button {
     background-color: #30B868;
     border: none;
     padding: 12.5px 16px;
@@ -55,8 +63,66 @@ div button {
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
+    margin: 24px 0px;
+
 }
 
-/* body{
-    background-color: aqua;
-} */
+/*-------------------------------------------------------------*/
+#banner {
+    border: 1px solid red;
+    background: url("images/hero-bg.png");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* background-position: center; */
+    min-height: 674px;
+    width: 1600px;
+    background-position: center;
+    align-items: center;
+}
+
+.banner-content {
+    width: 1360px;
+    min-height: 379px;
+    padding: 179.5px 120px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#banner .banner-content .early-access-button {
+    background-color: white;
+    border: none;
+    padding: 8px 12px;
+    color: #30B868;
+    border-radius: 100px;
+    font-size: 14px;
+    /* font-weight: bold; */
+    cursor: pointer;
+    margin: 16px 5px;
+    /* width: 229px;
+    height: 36px; */
+    
+}
+
+#banner .banner-content h1 .color-white {
+    padding: 16px 0px;
+}
+
+#banner .color-white {
+    color: white;
+}
+
+#banner .color-green {
+    color: #30B868;
+}
+
+#banner .banner-content p {
+    color: white;
+    text-align: center;
+    font-size: 16px; 
+    padding: 0px 295px;
+    margin: 16px 0 25px 0; 
+
+}
