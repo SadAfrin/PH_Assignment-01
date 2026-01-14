@@ -74,6 +74,7 @@ nav ul a {
     background-repeat: no-repeat;
     /* background-size: cover; */
     /* background-position: center; */
+    /* background: aqua; */
     min-height: 674px;
     width: 1600px;
     background-position: center;
@@ -83,10 +84,12 @@ nav ul a {
 .banner-content {
     width: 1360px;
     min-height: 379px;
-    padding: 179.5px 120px;
+    margin: 0px 120px;
+    padding: 179.5px 0px;
 
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     
 }
@@ -121,8 +124,8 @@ nav ul a {
 #banner .banner-content p {
     color: white;
     text-align: center;
-    font-size: 16px; 
+    font-size: 18px; 
     padding: 0px 295px;
-    margin: 16px 0 25px 0; 
+    margin: 16px 100px 25px 100px; 
 
 }
