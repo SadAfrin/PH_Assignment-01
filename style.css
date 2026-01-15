@@ -6,6 +6,7 @@
 
 body {
     width: 1600px;
+    background-color: lightsalmon;
 }
 
 header {
@@ -61,7 +62,7 @@ nav ul a {
     color: white;
     border-radius: 5px;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     cursor: pointer;
     margin: 24px 0px;
 
@@ -125,6 +126,7 @@ nav ul a {
     color: white;
     text-align: center;
     font-size: 18px; 
+    font-weight: 400;
     padding: 0px 295px;
     margin: 16px 100px 25px 100px; 
 
@@ -137,7 +139,51 @@ nav ul a {
     color: white;
     border-radius: 5px;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     cursor: pointer;
     margin: 24px 0px;
+}
+/* ------------------------------------------------ */
+
+#body-section-1 {
+    margin: 0px 120px;
+}
+
+#body-section-1 .notes-don-fail {
+    text-align: center;
+    margin-bottom: 44px;
+}
+
+#body-section-1 .cards {
+    display: flex;
+    justify-content: space-between;
+    /* padding-top: 69.5px; */
+    text-align: center; 
+
+
+}
+
+#body-section-1 .card-info {
+    padding: 69.5px 30px;
+    /* width: 322px 300px; */
+    
+
+    
+}
+
+#body-section-1 .card-info h4{
+    padding: 16px 0px;
+    
+
+} 
+
+#body-section-1 .icon {
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: 0px 131px;
 }
