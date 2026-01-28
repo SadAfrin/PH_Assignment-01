@@ -9,6 +9,13 @@ body {
     background-color: lightsalmon;
 }
 
+.inter-custom {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 header {
     /* width: 1600px; */
     /*height: 92px; */
@@ -72,6 +79,7 @@ nav ul a {
 #banner {
     border: 1px solid red;
     background: url("images/hero-bg.png");
+    vertical-align: middle
     background-repeat: no-repeat;
     /* background-size: cover; */
     /* background-position: center; */
@@ -186,4 +194,29 @@ nav ul a {
     align-items: center;
     justify-content: center; 
     margin: 0px 131px;
+    
+}
+/* ------------------------------------------------ */
+
+#body-section-2 {
+    margin: 120px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+#body-section-2 .text-part {
+    margin: 101.5px 0px;
+    margin-left: 60px;
+}
+
+#body-section-2 #the-sol {
+    color: #30B868;
+}
+
+#body-section-2 #your-second-brain {
+    font-size: 48;
+    font-weight: 700;
+    padding: 10px 0px;
+    
+
 }
