@@ -25,7 +25,7 @@ header {
 }
 
 nav {
-    height: 92px;
+    /* height: 92px; */
     padding: 0px 120px;
     display: flex;
     justify-content: space-between;
@@ -42,13 +42,14 @@ nav {
 }
 
 nav ul {
-    width: 365px;
-    height: 24px;
+    /* width: 365px;
+    height: 24px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 32px;
     /* margin: auto; */
-    padding: 34px 0px;
+    /* padding: 34px 0px; */
     list-style-type: none;
     
 }
@@ -79,11 +80,11 @@ nav ul a {
     background: url("images/hero-bg.png");
     vertical-align: middle
     background-repeat: no-repeat;
-    /* background-size: cover; */
-    /* background-position: center; */
+    background-size: cover; 
+    /* background-position: center;
     /* background: aqua; */
     min-height: 674px;
-    width: 1600px;
+    width: 100%;
     /* background-position: center; */
     align-items: center;
 }
@@ -188,10 +189,10 @@ nav ul a {
 #body-section-1 .card-info {
     padding: 69.5px 30px;
     border: 1px solid lightgray;
-    /* margin: 10px; */
+    /* margin: auto; */
     border-radius: 8px;
     box-shadow: 0 4px 10px lightgray;
-    max-width: 322px;
+    max-width: 304px;
 
     display: flex;
     flex-direction: column;
@@ -314,7 +315,7 @@ nav ul a {
 
 }
 
-#body-section-3 .button img{
+#body-section-3 .button-sec-3 img{
     padding-left: 6px;
 }
 /* ------------------------------------------- */
