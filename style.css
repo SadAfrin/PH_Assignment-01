@@ -6,7 +6,7 @@
 
 body {
     width: 1600px;
-    background-color: lightsalmon;
+    /* background-color: lightsalmon; */
 }
 
 .inter-custom {
@@ -118,6 +118,9 @@ nav ul a {
     
 }
 
+/* #banner .banner-content h1 {
+    font-size: 84;
+} */
 #banner .banner-content h1 .color-white {
     padding: 16px 0px;
 }
@@ -134,7 +137,7 @@ nav ul a {
     color: white;
     text-align: center;
     font-size: 18px; 
-    font-weight: 400;
+    /* font-weight: 400; */
     padding: 0px 295px;
     margin: 16px 100px 25px 100px; 
 
@@ -167,12 +170,18 @@ nav ul a {
     justify-content: space-between;
     /* padding-top: 69.5px; */
     text-align: center; 
+    
 
 
 }
 
 #body-section-1 .card-info {
     padding: 69.5px 30px;
+    border: 1px solid lightgray;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px lightgray;
+
     /* width: 322px 300px; */
     
 
@@ -202,11 +211,16 @@ nav ul a {
     margin: 120px;
     display: flex;
     /* justify-content: space-between; */
+    align-items: center;
 }
 
 #body-section-2 .text-part {
     margin: 101.5px 0px;
     margin-left: 60px;
+}
+
+#body-section-2 .text-without-checkmark{
+    padding-bottom: 32px;
 }
 
 #body-section-2 #the-sol {
@@ -216,7 +230,19 @@ nav ul a {
 #body-section-2 #your-second-brain {
     font-size: 48;
     font-weight: 700;
-    padding: 10px 0px;
+    padding: 16px 0px;
+
+
+}
+
+
+#body-section-2 .checkmark div{
+    display: flex;
     
+}
+
+#body-section-2 .checkmark div img{
+    padding-right: 10px;
+    padding-bottom: 10px;
 
 }
