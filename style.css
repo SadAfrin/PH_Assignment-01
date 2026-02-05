@@ -14,7 +14,22 @@
 /* ---------------------------------------------------------------- */
 
 /* shared classes */
+.button-hover-effect:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
 
+#banner .button-hover-effect-see:hover {
+    font-weight: 600;
+    border: 2px solid green
+    
+}
+
+.links-hover-effect:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    color: green
+}
 
 /* -----------------header section----------------- */
 nav {
